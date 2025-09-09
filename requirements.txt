@@ -1,0 +1,7 @@
+cat > requirements.txt << 'EOF'
+opencv-python
+opencv-contrib-python
+numpy
+matplotlib
+pyyaml
+EOF
