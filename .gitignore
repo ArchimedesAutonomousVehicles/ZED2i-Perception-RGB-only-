@@ -1,0 +1,33 @@
+
+```bash
+cat > .gitignore << 'EOF'
+# OS & editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+*~
+
+# Data & results (keep only tiny samples)
+data/
+datasets/
+bags/
+results/*.png
+results/*.jpg
+*.bag
+*.mp4
+*.avi
+EOF
